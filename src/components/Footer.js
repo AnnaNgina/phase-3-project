@@ -4,7 +4,7 @@ function Footer() {
       
       <div className="footer"> 
       <div id ="links">
-      <p>Created by @Annastacia for crime report</p>
+      <p2>Created by @Annastacia for crime report</p2>
 
              </div>
              </div>
