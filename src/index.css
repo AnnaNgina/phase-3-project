@@ -33,3 +33,6 @@ p{
 p2{
   color: white;
 }
+#charts{
+  background-image: url("./components/images/fire.jpg");
+}
