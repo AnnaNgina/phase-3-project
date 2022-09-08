@@ -33,6 +33,17 @@ p{
 p2{
   color: white;
 }
-#charts{
-  background-image: url("./components/images/fire.jpg");
+
+input{
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.footer{
+height: 400px;
+width: 100%;
+
 }
