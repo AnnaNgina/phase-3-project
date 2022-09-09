@@ -3,18 +3,18 @@ import React from "react";
 function Navbar() {
     return ( 
       
-      <div className="header">
-         <h1>Crime Report System</h1>
-        
-         
-             <div id="links">
-             <a href="#home">Home</a> 
-            <a href="#reportcase">Report Case</a>
-            <a href="#comment">Comment</a>
-             </div>
-             <img src="./images/fire.jpg" alt="fire"></img>
-        </div>
- );
-
+        <nav id="nav-list">
+        <div className="logo">
+           <h1><span>Recipe </span>Review</h1>
+       </div>
+       <div className="nav-bar">
+       <li><a href="/">Home</a></li>
+       <li><a href="/">Gallery</a></li>
+       <li><a href="#footer">About</a></li>
+       </div>
+   </nav>
+);
 }
+
+ 
  export default Navbar;
