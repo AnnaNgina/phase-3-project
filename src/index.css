@@ -35,15 +35,21 @@ p2{
 }
 
 input{
-  width: 90%;
+  width: 100%;
   padding: 10px;
   display: flex;
   flex-direction: column;
   border: 2px solid black;
+
 }
 
 .footer{
 height: 400px;
 width: 100%;
 
+
+}
+form{
+  background-color: rgb(49, 42, 42);
+  
 }
