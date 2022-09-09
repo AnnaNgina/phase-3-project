@@ -5,9 +5,9 @@ function Footer() {
       <div className="footer"> 
       <div id ="links">
         <form>
-            <input type ="text" placeholder="Your Name"/>
-            <input type ="text" placeholder="email"/>
-            <input type="submit" placeholder="search"/>
+            <input type ="text" placeholder="Your Name"/><br></br>
+            <input type ="text" placeholder="email"/><br></br>
+            <input type="submit" placeholder="search"/><br></br>
         </form>
       <p2>Created by @Annastacia for crime report</p2>
 
