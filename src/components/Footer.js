@@ -11,7 +11,7 @@ function Footer() {
           <textarea value="content" placeholder="Write here..."/>
           <input type="submit" value="Submit"/>
         </form>
-        <strong><p></p></strong>
+        <strong><p>The system is designed and developed by Annastacia Ngina @2022</p></strong>
         </div>
       </div>
    )};
