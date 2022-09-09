@@ -1,21 +1,18 @@
-import React from "react";
 function Footer() {
-    return ( 
-      
-      <div className="footer"> 
-      <div id ="links">
-        <form>
-            <input type ="text" placeholder="Your Name"/><br></br>
-            <input type ="text" placeholder="email"/><br></br>
-            <textarea> comment here ..</textarea><br></br>
-            <input type="submit" placeholder="search"/><br></br>
+    return (
+      <div id="footer">
+
+        <div className="contact">
+        <h3>Talk To Us!</h3>
+        <form id="contact-us">
+          <input type="text" name="fname" value="First Name"/>
+          <input type="text" name="lname" value="Last Name"/>
+          <input type="text" name="email" value="Email" placeholder="Email" required/>
+          <textarea value="content" placeholder="Write here..."/>
+          <input type="submit" value="Submit"/>
         </form>
-      <p2>Created by @Annastacia for crime report</p2>
-
-             </div>
-             </div>
-    
- );
-
-}
- export default Footer;
+        <strong><p></p></strong>
+        </div>
+      </div>
+   )};
+  export default Footer;

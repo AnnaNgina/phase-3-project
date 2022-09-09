@@ -6,13 +6,14 @@ function Header() {
       
       <div className="header"> 
       <pre>
-      <p> The system is approved by government for crime analytics.<br></br>
-        You can add crime in your village and also add comment on the services offerred by the authourity. <br></br>
-        Also you can comment on that system.</p>
+      <p><em>The is a platform for review of african and western recipe.<br></br>
+      The system also give a platform where one can add prefered recipe. <br></br>
+        In addition the system is user friendly.</em></p>
+        
         </pre>
 
              </div>
-             
+
     
  );
 
